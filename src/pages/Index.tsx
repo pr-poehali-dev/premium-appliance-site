@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import Benefits from '@/components/Benefits';
 import ProductFilters from '@/components/ProductFilters';
 import ProductCard from '@/components/ProductCard';
+import Testimonials from '@/components/Testimonials';
 import Cart from '@/components/Cart';
 
 interface Product {
@@ -117,6 +119,8 @@ const Index = () => {
       
       <Hero />
       
+      <Benefits />
+      
       <ProductFilters />
       
       <section className="container mx-auto px-4 pb-16">
@@ -131,6 +135,8 @@ const Index = () => {
           ))}
         </div>
       </section>
+      
+      <Testimonials />
     </div>
   );
 };
