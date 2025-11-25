@@ -1,6 +1,16 @@
 export const Hero = () => {
   return (
     <section className="container mx-auto px-4 py-12">
+      <div className="text-center mb-12 animate-fade-in">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 font-['Montserrat'] text-primary">
+          Эталон качества для вашего дома
+        </h1>
+        <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+          Откройте для себя мир безупречной немецкой инженерии. 
+          Каждая единица техники — это произведение искусства, созданное для тех, кто ценит совершенство.
+        </p>
+      </div>
+      
       <div className="grid md:grid-cols-2 gap-6 mb-12">
         <div className="relative overflow-hidden rounded-lg bg-gradient-to-br from-primary to-primary/80 p-8 text-primary-foreground animate-fade-in">
           <div className="relative z-10">
